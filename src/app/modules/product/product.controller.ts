@@ -20,7 +20,7 @@ const getProduct = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Product Created Successfully!',
+    message: 'All Product retrieved successfully!',
     data: result,
   });
 });
@@ -31,7 +31,7 @@ const getSingleProduct = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Product data get successfully for single Id!',
+    message: 'Single Product retrieved successfully!',
     data: result,
   });
 });
