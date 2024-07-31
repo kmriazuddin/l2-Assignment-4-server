@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 const product = z.object({
   product: z.string(),
-  quantity: z.string(),
+  quantity: z.number(),
 });
 
 const orderValidationSchema = z.object({
